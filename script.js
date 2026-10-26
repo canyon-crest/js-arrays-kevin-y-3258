@@ -63,6 +63,7 @@ for (i = 0; i < numbers.length; i++) {
         myString += ', ';
     }
 }
+console.log('Numbers: ' + myString);
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
 //         Print: console.log("Sum: " + sum)
@@ -87,6 +88,7 @@ if (numbers[i] % 2 === 0) {
     evenCount++
 }
 }
+console.log('Even count: ' + evenCount);
 // STEP 9: Find the largest number.
 //         Start with the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
@@ -98,4 +100,4 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 
-console.log("Largest " + largest);
+console.log("Largest: " + largest);
